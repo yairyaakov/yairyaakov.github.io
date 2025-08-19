@@ -52,6 +52,14 @@
     z-index: 2;
     color: white; /* כדי לראות את הכתוב על רקע כהה */
   }
+  .date-highlight {
+  background-color: #dce6f7; /* צבע תכלת עדין */
+  font-weight: bold;        /* הדגשה */
+  padding: 4px 8px;         /* ריווח פנימי */
+  border-radius: 4px;       /* פינות מעוגלות */
+  display: inline-block;    /* שיהיה כמו "תגית" */
+}
+
 </style>
 </head>
 
@@ -221,7 +229,7 @@
     <!-- Resume Section -->
     <section id="resume" class="resume section">
       <div class="container section-title" data-aos="fade-up">
-        <h2>Resume</h2>
+        <h2>Education & Experience</h2>
       </div>
 
       <div class="container">
@@ -235,7 +243,7 @@
 
             <div class="resume-item">
               <h3>Ariel University, Computer Science</h3>
-              <h5>Oct 2022 – Jul 2025</h5>
+              <p><span class="date-highlight">Oct 2022 – Jul 2025</span></p>
               <ul>
                 <li>GPA: 91 • Dean's List</li>
                 <li>Dean's Honors for 2023</li>
@@ -247,7 +255,6 @@
               <h3>Online Courses</h3>
               <ul>
                 <li>100 Days of Code: The Complete Python Pro Bootcamp for 2023 – Dr. Angela Yu (Udemy)</li>
-                <li>Dive Into Ansible - Beginner to Expert in Ansible – DevOps (Udemy)</li>
               </ul>
             </div>
 
@@ -261,7 +268,7 @@
             <!-- Student Tutor -->
             <div class="resume-item">
               <h3>Student Tutor</h3>
-              <h5>Jan 2024 – Present</h5>
+              <p><span class="date-highlight">Jan 2024 – Present</span></p>
               <p><em>Ariel University</em></p>
               <ul>
                 <li>Delivered personalized tutoring in C++, Python, Java, and SQL.</li>
@@ -273,7 +280,7 @@
             <!-- Team Manager – Solar Panel Installation -->
             <div class="resume-item">
               <h3>Team Manager – Solar Panel Installation</h3>
-              <h5>Apr 2021 – Aug 2021</h5>
+              <p><span class="date-highlight">Apr 2021 – Aug 2021</span></p>
               <ul>
                 <li>Led a team of technicians in installing solar panels on residential and commercial sites.</li>
                 <li>Managed schedules, work allocation, and ensured on-time project delivery.</li>
@@ -284,7 +291,7 @@
             <!-- Military Service -->
             <div class="resume-item">
               <h3>Military Service</h3>
-              <h5>Nov 2018 – Sep 2021</h5>
+              <p><span class="date-highlight">Nov 2018 – Sep 2021</span></p>
               <p><em>IDF – Givati Brigade | Platoon Commander</em></p>
               <ul>
                 <li>Certificate of Excellence for outstanding leadership and performance.</li>
