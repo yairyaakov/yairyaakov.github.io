@@ -296,23 +296,72 @@
     <!-- Portfolio Section -->
     <section id="portfolio" class="portfolio section light-background">
       <div class="container section-title" data-aos="fade-up">
-        <h2>Projects</h2>
-        <p>Selected projects from my studies and hackathon work.</p>
+        <h2>Portfolio</h2>
+        <p>Selected projects from my studies and personal work.</p>
       </div>
 
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <ul>
-          <li>
-            <strong>Flight Management System</strong> — Java. Scheduling system focusing on data structures & algorithms.
-          </li>
-          <li>
-            <strong>Viking Chess</strong> — C++. Strategy game with OOP and modular architecture.
-          </li>
-          <li>
-            <strong>Musical Chairs (Hackathon Winner)</strong> — Operational system for the Israeli Air Force.
-          </li>
-        </ul>
-      </div>
+      <div class="container">
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+        <!-- filters -->
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-flight">Flight System</li>
+            <li data-filter=".filter-viking">Viking Chess</li>
+            <li data-filter=".filter-musical">Musical Chairs</li>
+         </ul>
+
+          <!-- items -->
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <!-- Flight Management -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-flight">
+              <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/flight.png" class="img-fluid" alt="Flight System">
+                <div class="portfolio-info">
+                  <h4>Flight Management System</h4>
+                  <p>Java scheduling system with DS & Algorithms</p>
+                  <a href="assets/img/portfolio/flight.png" class="glightbox preview-link" title="Flight System"><i class="bi bi-zoom-in"></i></a>
+                  <a href="https://github.com/yairyaakov/FlightMenagementSystem/tree/main" class="details-link" title="Open on GitHub" target="_blank" rel="noopener">
+                    <i class="bi bi-link-45deg"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+           <!-- Viking Chess -->
+           <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-viking">
+             <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/viking.png" class="img-fluid" alt="Viking Chess">
+                <div class="portfolio-info">
+                  <h4>Viking Chess</h4>
+                  <p>C++ strategy game with OOP</p>
+                  <a href="assets/img/portfolio/viking.png" class="glightbox preview-link" title="Viking Chess"><i class="bi bi-zoom-in"></i></a>
+                  <a href="https://github.com/yairyaakov/VikingsChess" class="details-link" title="Open on GitHub" target="_blank" rel="noopener">
+                    <i class="bi bi-link-45deg"></i>
+                 </a>
+               </div>
+             </div>
+            </div>
+
+            <!-- Musical Chairs -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-musical">
+             <div class="portfolio-content h-100">
+                <img src="assets/img/portfolio/musical.png" class="img-fluid" alt="Musical Chairs">
+                <div class="portfolio-info">
+                  <h4>Musical Chairs (Hackathon Winner)</h4>
+                  <p>Operational system for IAF</p>
+                  <a href="assets/img/portfolio/musical.png" class="glightbox preview-link" title="Musical Chairs"><i class="bi bi-zoom-in"></i></a>
+                  <a href="https://github.com/yairyaakov/MusicalChairs" class="details-link" title="Open on GitHub" target="_blank" rel="noopener">
+                    <i class="bi bi-link-45deg"></i>
+                  </a>
+                </div>
+              </div>
+           </div>
+
+         </div><!-- /isotope-container -->
+       </div>
+     </div>
     </section>
 
 
