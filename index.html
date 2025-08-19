@@ -36,6 +36,25 @@
   ======================================================== -->
 </head>
 
+<style>
+  /* ממרכז את כל החלק של ה-hero */
+  #hero {
+    display: flex;
+    align-items: center;   /* ממרכז אנכית */
+    justify-content: center; /* ממרכז אופקית */
+    height: 100vh;         /* תופס את כל גובה המסך */
+    text-align: center;    /* מרכז את הטקסט עצמו */
+    position: relative;
+  }
+
+  /* מוודא שהטקסט לא יתחבא מאחורי התמונה */
+  #hero .container {
+    position: relative;
+    z-index: 2;
+    color: white; /* כדי לראות את הכתוב על רקע כהה */
+  }
+</style>
+
 <body class="index-page">
 
   <header id="header" class="header dark-background d-flex flex-column">
